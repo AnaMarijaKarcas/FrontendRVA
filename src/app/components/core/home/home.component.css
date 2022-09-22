@@ -1,0 +1,81 @@
+.home-section {
+    padding: 10px;
+    text-align: center;
+    
+    color: white;
+  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: cadetblue;
+  }
+  
+  html {
+    box-sizing: border-box;
+
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+  
+  .column {
+    display: inline-flex;
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 16px;
+    padding: 0 8px;
+
+  }
+  .card {
+   
+    margin: 8px;
+
+  }
+  
+
+
+  .appInfo-section{
+    text-align: center;
+    
+  }
+  
+  .container {
+    padding: 0 16px;
+    display: grid;
+    background-color: rgb(56, 56, 56);
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
